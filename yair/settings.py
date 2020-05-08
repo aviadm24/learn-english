@@ -25,12 +25,13 @@ SECRET_KEY = 'g02c@=uxtneuqbwamrdepnfpc69ws&@*hubo=(d$^+@(_hf@ju'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'corona-trends-bigq.herokuapp.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'main',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
