@@ -124,6 +124,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # print('STATIC_ROOT: ', STATIC_ROOT)
 STATIC_URL = '/static/'
+ipaddress = socket.gethostbyname(socket.gethostname())
 if ipaddress.startswith('172'):
     STATICFILES_DIRS = (
         os.path.join(BASE_DIR, 'static'),
