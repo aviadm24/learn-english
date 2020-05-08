@@ -25,7 +25,7 @@ SECRET_KEY = 'g02c@=uxtneuqbwamrdepnfpc69ws&@*hubo=(d$^+@(_hf@ju'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'corona-trends-bigq.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'learning-english-app.herokuapp.com']
 
 
 # Application definition
