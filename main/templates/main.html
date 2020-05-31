@@ -9,8 +9,12 @@
 
     <title>Landing Page - Start Bootstrap Theme</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!-- Bootstrap core CSS -->
-    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<!--    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">-->
 
     <!-- Custom fonts for this template -->
     <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
@@ -19,7 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="css/landing-page.min.css" rel="stylesheet">
+<!--    <link href="css/landing-page.min.css" rel="stylesheet">-->
 
   </head>
 
@@ -28,16 +32,20 @@
 {% endblock %}
 
     <!-- Bootstrap core JavaScript -->
-    <script src="{% static 'jquery/jquery.min.js' %}"></script>
-    <script src="{% static 'popper/popper.min.js' %}"></script>
-    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+<!--    <script src="{% static 'jquery/jquery.min.js' %}"></script>-->
+<!--    <script src="{% static 'popper/popper.min.js' %}"></script>-->
+<!--    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>-->
 
-    <!-- Plugin JavaScript -->
-    <script src="{% static 'jquery-easing/jquery.easing.min.js' %}"></script>
-
+<!--    &lt;!&ndash; Plugin JavaScript &ndash;&gt;-->
+<!--    <script src="{% static 'jquery-easing/jquery.easing.min.js' %}"></script>-->
+    <script type="text/javascript">
+	var srcLang="Heb";
+	var dstLang="Eng";
+	</script>
     <!-- Contact Form JavaScript -->
-    <script src="{% static 'jqBootstrapValidation.js' %}"></script>
-
+<!--    <script src="{% static 'jqBootstrapValidation.js' %}"></script>-->
+{% block js %}
+{% endblock %}
 
 
 </body>

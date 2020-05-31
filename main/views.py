@@ -1,3 +1,10 @@
 from django.shortcuts import render
+import os
+from django.http import JsonResponse
 
-# Create your views here.
+
+def get_words(request):
+    print(os.getcwd())
+
+    return JsonResponse({'foo': 'bar'})
+

@@ -1,0 +1,42 @@
+{% extends "main.html" %}
+{% block index %}
+{% load static %}
+
+    <div class="container">
+		<div class="row" id="WordsList">
+			<div class="col" ></div>
+		</div>
+<!--		<div style="clear:both"></div>-->
+		<div class="row" id="LearnWords">
+
+			<div class="col-12" id="Word">
+				<div class="row">
+				<div class="col" id="Dst">
+					<div id="DestWord"></div>
+					<div id="PartOfSpeechDest"></div>
+				</div>
+
+				<div class="col" id="Src">
+					<div id="SourceWord"></div>
+					<div id="PartOfSpeechSrc"></div>
+				</div>
+				</div>
+				<div class="row">
+				<div class="col-12" id="Transcription"></div>
+				</div>
+
+				<div class="row" id="Buttons">
+					<button class="col-6" id="NextButton">הבא</button>
+					<button class="col-6" id="PrevButton">הקודם</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+    <link rel="stylesheet" type="text/css" href="{% static 'main/intro2.css' %}" />
+
+{% endblock %}
+{% block js %}
+
+<script type="text/javascript" src="{% static 'main/intro.js' %}"></script>
+{% endblock %}
