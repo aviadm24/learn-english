@@ -4,7 +4,9 @@
 $(function(){
     var LessonWords;
     var currentWord=0;
-    $.get("http://127.0.0.1:8000/static/xml/TARGETW.xml", {}, function (xml){
+//    $.get("http://127.0.0.1:8000/static/xml/TARGETW.xml", {}, function (xml){
+    console.log("target url: "+ static_url)
+    $.get(static_url+"xml/TARGETW.xml", {}, function (xml){
         var xml_node = $('Words',xml);
 //        console.log(xml_node);
         var dstLang = 'Eng';
