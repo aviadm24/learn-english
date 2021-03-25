@@ -11,7 +11,7 @@ gunicorn==20.0.4
 idna==2.7
 pyaml==18.11.0
 pytz==2020.1
-PyYAML==3.13
+PyYAML==5.4
 requests==2.20.1
 six==1.12.0
 sqlparse==0.3.1
